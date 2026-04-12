@@ -184,7 +184,7 @@ function startBot(message) {
  * Check for updates from GitHub repository
  */
 async function checkForUpdates() {
-    const GITHUB_REPO = "yourusername/mirai"; // Change this to your repo
+    const GITHUB_REPO = "SAGOR-KINGx/JS-PROJECT"; // Change this to your repo
     const CURRENT_VERSION = require('./package.json').version;
 
     try {
